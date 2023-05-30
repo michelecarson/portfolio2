@@ -15,9 +15,15 @@ p {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
 header {
     display: flex;
     align-items: baseline;
+    padding-top: 10px;
     color: white;
     font-family: "Nunito", sans-serif;
 }
@@ -37,13 +43,15 @@ header {
 .header--nav-item:hover {
     transition-delay: 1ms;
     cursor: pointer;
-    outline: solid 1px whitesmoke;
+    outline: solid 2px #33393a;;
     border-radius: 7px;
+    color: #33393a;
 }
 
 .hero-container {
     background-image: url("images/beach-background.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -126,5 +134,9 @@ header {
     
     .hero-container--location-address {
         font-size: 1.3em;
+    }
+
+    .hero-container--paragraph {
+        padding-bottom: 1500px;
     }
 }
