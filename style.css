@@ -8,11 +8,8 @@ body {
     height: 100vh;
     margin: 0;
     color: #434B4D;
-    background-image: url("images/beach-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #94a5c3;
 }
-
 
 header {
     display: flex;
@@ -20,6 +17,7 @@ header {
     color: #f5f5f5;
     padding: 0 16px;
     font-family: "Lato", sans-serif;
+    background-color: #94a5c3;
 }
 
 .header--title {
@@ -42,6 +40,13 @@ header {
     cursor: pointer;
     outline: solid 1px whitesmoke;
     border-radius: 7px;
+}
+
+.landing-container {
+    background-image: url("images/beach-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .landing-container--location {
@@ -79,7 +84,8 @@ header {
 }
 
 .landing-container--paragraph {
-    padding: 5px 16px;
+    padding: 10px 16px;
+    padding-bottom: 400px;
 }
 
 
