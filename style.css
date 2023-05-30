@@ -54,7 +54,6 @@ header {
     background-image: url("images/beach-background-med.png");
     background-size: cover;
     background-position: center;
-    height: 100vh;
     background-repeat: no-repeat;
 }
 
@@ -88,6 +87,12 @@ header {
     font-size: 3em;
 }
 
+.hero-container--paragraph {
+    margin: 0;
+    padding-top: 32px;
+    padding-bottom: 450px;
+}
+
 .about-container {
     background-color: #a9b1bf;
 }
@@ -113,6 +118,10 @@ header {
 
     .header--nav-item:hover {
         transition-delay: 1ms;
+    }
+
+    .hero-container {
+        height: 100vh;
     }
 
     .hero-container--location {
