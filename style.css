@@ -97,14 +97,46 @@ header {
     background-color: #a9b1bf;
 }
 
-.hero-container--content, .about-container--content {
-    padding: 0 16px;
+.about-container--title {
+    font-size: 3em;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.about-container--subheader {
+    font-weight: 700;
 }
 
 .about-container--title, .about-container--subheader {
     margin-bottom: 0 !important;
+    font-family: "Lato";
 }
 
+.about-container--intro {
+    font-weight: 700;
+}
+
+.about-container--skills-item1 {
+    display: grid;
+    grid: auto/ auto auto auto auto;
+    justify-content: space-around;
+}
+
+.about-container--skills-item2  {
+    display: grid;
+    grid: auto/ auto auto auto;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.about-container--skills-item1 img, .about-container--skills-item2 img {
+    width: 40px;
+}
+
+.hero-container--content, .about-container--content {
+    padding: 0 16px;
+}
 
 @media screen and (min-width: 500px) {
 
