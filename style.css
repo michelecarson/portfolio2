@@ -92,22 +92,33 @@ header {
     font-family: "Lato", sans-serif;
     font-size: 3em;
     line-height: 1.15;
-    background: linear-gradient(45deg, #007bff, #00d4ff);
+    background: linear-gradient(135deg, #0077e6,
+    #0088e6,
+    #0099e6,
+    #00aae6,
+    #00bbe6,
+    #00cce6);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: shine 2s linear infinite;
-    }
+    background-size: 300% 300%;
+    animation: shine 6s ease-in-out infinite;
+}
 
 
 @keyframes shine {
     0% {
-        background-position: -500%;
-      }
-      100% {
-        background-position: 500%;
-      }
+        background-position: 0% 50%;
     }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
 
 .hero-container--paragraph {
     margin: 0;
@@ -139,7 +150,8 @@ header {
     text-align: center;
 }
 
-.about-container--title, .about-container--subheader {
+.about-container--title,
+.about-container--subheader {
     margin-bottom: 0 !important;
     font-family: "Lato";
 }
@@ -148,32 +160,32 @@ header {
     display: grid;
     grid: auto/ auto auto auto auto;
     justify-content: space-evenly;
-    padding: 2em 0;
-}
+    padding-top: 1em;
+    padding-bottom: 3em;}
 
-.about-container--skills-item2  {
+.about-container--skills-item2 {
     display: grid;
     grid: auto/ auto auto auto;
     justify-content: space-evenly;
     gap: 2em;
-    padding: 2em 0;
+    padding-top: 1em;
+    padding-bottom: 3em;
 }
 
 .about-container--skills-item1 img {
     width: 60px;
 }
 
-.about-container--skills-item2 img  {
+.about-container--skills-item2 img {
     width: 50px;
 }
 
-.hero-container--content, .about-container--content {
+.hero-container--content,
+.about-container--content {
     padding: 16px;
 }
 
-@media screen and (min-width: 500px) {
-
-}
+@media screen and (min-width: 500px) {}
 
 @media screen and (min-width: 1025px) {
     header {
@@ -191,10 +203,11 @@ header {
         margin-top: 150px;
     }
 
-    .hero-container--content, .about-container--content {
+    .hero-container--content,
+    .about-container--content {
         padding: 16px 500px;
     }
-    
+
     .hero-container--location-address {
         font-size: 1.3em;
     }
@@ -209,11 +222,15 @@ header {
     }
 
     .about-container--skills-item1 {
-        padding: 4em 9em;
+        padding: 0em 9em;
+        padding-top: 4em;
+        padding-bottom: 8em;
     }
 
     .about-container--skills-item2 {
-        padding: 4em 10em;
+        padding: 0em 10em;
+        padding-top: 4em;
+        padding-bottom: 8em;
         gap: 5em;
     }
 
@@ -223,5 +240,5 @@ header {
 
     .about-container--skills-item2 img {
         width: 70px;
-}
+    }
 }
