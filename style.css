@@ -4,16 +4,11 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Nunito', sans-serif;
     height: 100vh;
     margin: 0;
-    background-color: whitesmoke;
     line-height: 1.5;
     color: #191919;
-}
-
-p {
-    line-height: 1.5;
 }
 
 a {
@@ -28,7 +23,6 @@ a:visited {
 header {
     display: flex;
     align-items: baseline;
-    color: black;
     font-family: "Lato", sans-serif;
     background: linear-gradient(45deg, #007bff, #00d4ff);
     padding: 0 16px;
@@ -48,25 +42,21 @@ header {
 
 .header--nav-item:hover {
     transition: .25s;
-    color: black;
+    color: #191919;
 }
 
 .hero-container {
-    background: rgba(255, 255, 255, 0.7) url("images/shapes-background.jpg");
+    background: rgba(255, 255, 255, 0.7) url("images/shapes-background2.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: lighten;
-    color: black;
     height: 100vh;
 }
 
 .hero-container--location {
-    padding-top: 1em;
-}
-
-.hero-container--location {
     display: flex;
+    padding-top: 1em;
     align-items: center;
 }
 
@@ -76,21 +66,22 @@ header {
 
 .hero-container--location-address {
     margin-left: 7px;
-    font-family: "Lato", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .hero-container--title {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 2em;
-    font-family: "Lato", sans-serif;
+    font-family: "Nunito", sans-serif;
 }
 
 .hero-container--tagline {
     margin-top: 0px;
     margin-bottom: 0;
-    font-family: "Lato", sans-serif;
-    font-size: 3em;
+    padding-bottom: 32px;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.75em;
     line-height: 1.15;
     background: linear-gradient(135deg, #0077e6,
     #0088e6,
@@ -122,11 +113,14 @@ header {
 
 .hero-container--paragraph {
     margin: 0;
-    padding-top: 32px;
+    line-height: 2;
 }
 
 .about-container {
     background-color: black;
+}
+
+.about-container--content {
     color: whitesmoke;
 }
 
@@ -134,6 +128,7 @@ header {
     font-size: 2em;
     text-align: center;
     padding-top: 1em;
+    color: white;
 }
 
 .about-container--intro {
@@ -148,6 +143,7 @@ header {
     font-weight: 700;
     font-size: 1.25em;
     text-align: center;
+    color: white;
 }
 
 .about-container--title,
@@ -161,7 +157,7 @@ header {
     grid: auto/ auto auto auto auto;
     justify-content: space-evenly;
     padding-top: 1em;
-    padding-bottom: 3em;}
+    padding-bottom: 2em;}
 
 .about-container--skills-item2 {
     display: grid;
@@ -169,7 +165,7 @@ header {
     justify-content: space-evenly;
     gap: 2em;
     padding-top: 1em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .about-container--skills-item1 img {
@@ -208,29 +204,25 @@ header {
         padding: 16px 500px;
     }
 
-    .hero-container--location-address {
-        font-size: 1.3em;
-    }
-
     .about-container--title {
         padding-top: 2em;
     }
 
     .about-container--intro {
         padding: 0 150px;
-        padding-bottom: 4em;
+        padding-bottom: 2em;
     }
 
     .about-container--skills-item1 {
-        padding: 0em 9em;
-        padding-top: 4em;
-        padding-bottom: 8em;
+        padding: 0em 13em;
+        padding-top: 2em;
+        padding-bottom: 4em;
     }
 
     .about-container--skills-item2 {
-        padding: 0em 10em;
-        padding-top: 4em;
-        padding-bottom: 8em;
+        padding: 0em 15em;
+        padding-top: 2em;
+        padding-bottom: 4em;
         gap: 5em;
     }
 
