@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     margin: 0;
     line-height: 1.5;
@@ -66,14 +66,28 @@ header {
 
 .hero-container--location-address {
     margin-left: 7px;
-    font-family: "Nunito", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .hero-container--title {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 2em;
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(45deg, #191919, #0077e6,
+    #0088e6,
+    #0099e6,
+    #00aae6,
+    #00bbe6,
+    #00cce6,
+    #191919
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% 300%;
+    animation-delay: 4s;
+    animation: title-shine 8s infinite;
 }
 
 .hero-container--tagline {
@@ -83,23 +97,49 @@ header {
     font-family: "Poppins", sans-serif;
     font-size: 2.75em;
     line-height: 1.15;
-    background: linear-gradient(135deg, #0077e6,
+    background: linear-gradient(45deg, #191919, #0077e6,
     #0088e6,
     #0099e6,
     #00aae6,
     #00bbe6,
-    #00cce6);
+    #00cce6,
+    #191919
+    );
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     background-size: 300% 300%;
-    animation: shine 6s ease-in-out infinite;
+    animation-delay: 4s;
+    animation: tagline-shine 8s infinite;
 }
 
-
-@keyframes shine {
+@keyframes title-shine {
     0% {
-        background-position: 0% 50%;
+        background-position: 200% 50%;
+    }
+
+    25% {
+        background-position: 100% 50%; 
+        color: #191919;
+    }
+
+    50% {
+        background-position: 0% 50%; 
+    }
+
+    100% {
+        background-position: -100% 50%; 
+    }
+}
+
+@keyframes tagline-shine {
+    0% {
+        background-position: -200% 50%; 
+    }
+
+    25% {
+        background-position: -100% 50%;
+        color: #191919;
     }
 
     50% {
@@ -110,6 +150,7 @@ header {
         background-position: 0% 50%;
     }
 }
+
 
 .hero-container--paragraph {
     margin: 0;
@@ -149,7 +190,7 @@ header {
 .about-container--title,
 .about-container--subheader {
     margin-bottom: 0 !important;
-    font-family: "Lato";
+    font-family: "Raleway";
 }
 
 .about-container--skills-item1 {
