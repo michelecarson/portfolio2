@@ -62,7 +62,7 @@ header {
 }
 
 .hero-container--location {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .hero-container--location {
@@ -122,6 +122,7 @@ header {
 .about-container--title {
     font-size: 2em;
     text-align: center;
+    padding-top: 1em;
 }
 
 .about-container--intro {
@@ -129,7 +130,7 @@ header {
     font-weight: 400;
     text-align: center;
     padding: 0 20px;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .about-container--subheader {
@@ -159,11 +160,11 @@ header {
 }
 
 .about-container--skills-item1 img {
-    width: 50px;
+    width: 60px;
 }
 
 .about-container--skills-item2 img  {
-    width: 40px;
+    width: 50px;
 }
 
 .hero-container--content, .about-container--content {
