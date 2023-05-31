@@ -62,7 +62,7 @@ header {
 }
 
 .hero-container--location {
-    padding-top: 75px;
+    padding-top: 2em;
 }
 
 .hero-container--location {
@@ -121,17 +121,15 @@ header {
 
 .about-container--title {
     font-size: 2em;
-    padding-top: 70px;
-    padding-bottom: 16px;
     text-align: center;
 }
 
 .about-container--intro {
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 400;
     text-align: center;
     padding: 0 20px;
-    padding-bottom: 70px;
+    padding-bottom: 1em;
 }
 
 .about-container--subheader {
@@ -148,19 +146,23 @@ header {
 .about-container--skills-item1 {
     display: grid;
     grid: auto/ auto auto auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 2em 0;
 }
 
 .about-container--skills-item2  {
     display: grid;
     grid: auto/ auto auto auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 2em;
     padding: 2em 0;
 }
 
-.about-container--skills-item1 img, .about-container--skills-item2 img {
+.about-container--skills-item1 img {
+    width: 50px;
+}
+
+.about-container--skills-item2 img  {
     width: 40px;
 }
 
@@ -184,6 +186,7 @@ header {
     .hero-container--location {
         display: flex;
         align-items: center;
+        padding-top: 75px;
         margin-top: 150px;
     }
 
@@ -195,22 +198,26 @@ header {
         font-size: 1.3em;
     }
 
-    .about-container--intro {
-        padding: 0 100px;
-        padding-bottom: 70px;
-        margin: 0;
+    .about-container--title {
+        padding-top: 2em;
     }
 
-    .about-container--skills-item1, .about-container--skills-item2 {
-        padding: 4em 0;
+    .about-container--intro {
+        padding: 0 150px;
+        padding-bottom: 4em;
+    }
+
+    .about-container--skills-item1 {
+        padding: 4em 9em;
+    }
+
+    .about-container--skills-item2 {
+        padding: 4em 10em;
+        gap: 5em;
     }
 
     .about-container--skills-item1 img {
         width: 80px;
-    }
-
-    .about-container--skills-item2 {
-        gap: 4em;
     }
 
     .about-container--skills-item2 img {
