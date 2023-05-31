@@ -28,35 +28,46 @@ a:visited {
 header {
     display: flex;
     align-items: baseline;
-    padding-top: 10px;
     color: black;
     font-family: "Lato", sans-serif;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    padding: 0 16px;
+    color: white;
 }
 
 .header--title {
     margin-right: auto;
     font-size: 1.25em;
+    font-weight: 400;
 }
 
 .header--nav-item {
-    margin-left: 10px;
+    margin-left: 15px;
+    font-weight: 400;
 }
 
 .header--nav-item:hover {
-    transition: .5s;
-    color: #007bff;
+    transition: .25s;
+    color: black;
 }
 
 .hero-container {
+    background: rgba(255, 255, 255, 0.7) url("images/shapes-background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    color: black;
+    height: 100vh;
+}
+
+.hero-container--location {
+    padding-top: 75px;
 }
 
 .hero-container--location {
     display: flex;
     align-items: center;
-    padding: 0;
 }
 
 .hero-container--location-pin {
@@ -101,7 +112,6 @@ header {
 .hero-container--paragraph {
     margin: 0;
     padding-top: 32px;
-    padding-bottom: 400px;
 }
 
 .about-container {
@@ -120,13 +130,14 @@ header {
     font-size: 1.25em;
     font-weight: 400;
     text-align: center;
-    padding: 0 5px;
+    padding: 0 20px;
     padding-bottom: 70px;
 }
 
 .about-container--subheader {
     font-weight: 700;
     font-size: 1.25em;
+    text-align: center;
 }
 
 .about-container--title, .about-container--subheader {
@@ -162,17 +173,12 @@ header {
 }
 
 @media screen and (min-width: 1025px) {
+    header {
+        padding: 0 500px;
+    }
+
     .header--nav-item {
-        margin-left: 20px;
-        padding: 20px;
-    }
-
-    .header--nav-item:hover {
-        transition-delay: 1ms;
-    }
-
-    .hero-container {
-        height: 100vh;
+        margin-left: 40px;
     }
 
     .hero-container--location {
@@ -182,7 +188,7 @@ header {
     }
 
     .hero-container--content, .about-container--content {
-        padding: 0 450px;
+        padding: 16px 500px;
     }
     
     .hero-container--location-address {
@@ -190,8 +196,9 @@ header {
     }
 
     .about-container--intro {
-        padding: 0 150px;
+        padding: 0 100px;
         padding-bottom: 70px;
+        margin: 0;
     }
 
     .about-container--skills-item1, .about-container--skills-item2 {
