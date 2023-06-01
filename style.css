@@ -36,7 +36,11 @@ header {
     width:100%;
     z-index: 1;
     opacity: 90%;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(8px);
+}
+
+header a:visited {
+    color: inherit;
 }
 
 .header--title {
