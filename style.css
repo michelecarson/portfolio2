@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     line-height: 1.5;
-    color: #191919;
+    color: #2b2b2b
 }
 
 a {
@@ -23,7 +23,7 @@ a:visited {
 header {
     display: flex;
     align-items: baseline;
-    font-family: "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     background: linear-gradient(45deg, #007bff, #00d4ff);
     padding: 0 16px;
     color: white;
@@ -42,7 +42,7 @@ header {
 
 .header--nav-item:hover {
     transition: .25s;
-    color: #191919;
+    color: #2b2b2b;
 }
 
 .hero-container {
@@ -62,6 +62,7 @@ header {
 
 .hero-container--location-pin {
     width: 20px;
+    padding-bottom: 8px;
 }
 
 .hero-container--location-address {
@@ -154,7 +155,6 @@ header {
 
 .hero-container--paragraph {
     margin: 0;
-    line-height: 2;
 }
 
 .about-container {
@@ -162,35 +162,36 @@ header {
 }
 
 .about-container--content {
-    color: whitesmoke;
+    color: lightgray;
 }
 
 .about-container--title {
+    font-family: "Poppins";
     font-size: 2em;
     text-align: center;
-    padding-top: 1em;
-    color: white;
+    padding-top: 2em;
+    background: linear-gradient(45deg, #0077e6, #0099e6, #00cce6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .about-container--intro {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    padding: 0 20px;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .about-container--subheader {
     font-weight: 700;
-    font-size: 1.25em;
-    text-align: center;
+    font-size: 1.5em;
     color: white;
 }
 
 .about-container--title,
 .about-container--subheader {
     margin-bottom: 0 !important;
-    font-family: "Raleway";
 }
 
 .about-container--skills-item1 {
@@ -240,6 +241,10 @@ header {
         margin-top: 150px;
     }
 
+    .hero-container--paragraph {
+        line-height: 2;
+    }
+
     .hero-container--content,
     .about-container--content {
         padding: 16px 500px;
@@ -247,6 +252,7 @@ header {
 
     .about-container--title {
         padding-top: 2em;
+        font-size: 3em;
     }
 
     .about-container--intro {
