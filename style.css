@@ -76,13 +76,12 @@ header {
     font-size: 2em;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(45deg, #191919, #0077e6,
-    #0088e6,
-    #0099e6,
-    #00aae6,
-    #00bbe6,
-    #00cce6,
-    #191919
-    );
+            #0088e6,
+            #0099e6,
+            #00aae6,
+            #00bbe6,
+            #00cce6,
+            #191919);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -99,13 +98,12 @@ header {
     font-size: 2.75em;
     line-height: 1.15;
     background: linear-gradient(45deg, #191919, #0077e6,
-    #0088e6,
-    #0099e6,
-    #00aae6,
-    #00bbe6,
-    #00cce6,
-    #191919
-    );
+            #0088e6,
+            #0099e6,
+            #00aae6,
+            #00bbe6,
+            #00cce6,
+            #191919);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -120,22 +118,22 @@ header {
     }
 
     25% {
-        background-position: 100% 50%; 
+        background-position: 100% 50%;
         color: #191919;
     }
 
     50% {
-        background-position: 0% 50%; 
+        background-position: 0% 50%;
     }
 
     100% {
-        background-position: -100% 50%; 
+        background-position: -100% 50%;
     }
 }
 
 @keyframes tagline-shine {
     0% {
-        background-position: -200% 50%; 
+        background-position: -200% 50%;
     }
 
     25% {
@@ -199,7 +197,8 @@ header {
     grid: auto/ auto auto auto auto;
     justify-content: space-evenly;
     padding-top: 1em;
-    padding-bottom: 2em;}
+    padding-bottom: 2em;
+}
 
 .about-container--skills-item2 {
     display: grid;
@@ -211,7 +210,23 @@ header {
     padding-bottom: 2em;
 }
 
-.about-container--skills-item1 img {
+.about-container--skills-item3,
+.about-container--skills-item4,
+.about-container--skills-item5,
+.about-container--skills-item6 {
+    display: grid;
+    grid: auto/ auto auto;
+    justify-content: space-evenly;
+    padding: 0 4em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.about-container--skills-item1 img,
+.about-container--skills-item3 img,
+.about-container--skills-item4 img,
+.about-container--skills-item5 img,
+.about-container--skills-item6 img {
     width: 60px;
 }
 
@@ -222,6 +237,10 @@ header {
 .hero-container--content,
 .about-container--content {
     padding: 16px;
+}
+
+.invert {
+    filter: invert(80%);
 }
 
 @media screen and (min-width: 500px) {}
@@ -245,10 +264,16 @@ header {
     .hero-container--paragraph {
         line-height: 2;
     }
-
-    .hero-container--content,
+    
+    .hero-container--content {
+        padding: 16px 500px;
+    }
     .about-container--content {
         padding: 16px 550px;
+    }
+
+    .about-container--content p {
+        /* padding-right: 50px; */
     }
 
     .about-container--title {
@@ -261,23 +286,46 @@ header {
     }
 
     .about-container--skills-item1 {
-        padding: 0em 8em;
+        padding: 0 50px;
         padding-top: 2em;
         padding-bottom: 4em;
+        justify-content: space-evenly;
     }
 
     .about-container--skills-item2 {
-        padding: 0em 20em;
+        padding: 0 16em;
         padding-top: 2em;
         padding-bottom: 4em;
         gap: 3em;
+        justify-content: space-evenly;
     }
 
-    .about-container--skills-item1 img {
-        width: 80px;
+    .about-container--skills-item3,
+    .about-container--skills-item4,
+    .about-container--skills-item5,
+    .about-container--skills-item6 {
+        padding: 0 200px;
+        padding-top: 2em;
+        padding-bottom: 4em;
+        justify-content: space-evenly;
+    }
+
+    .about-container--skills-item3-p,
+    .about-container--skills-item4-p,
+    .about-container--skills-item5-p,
+    .about-container--skills-item6-p {
+        text-align: center;
+    }
+
+    .about-container--skills-item1 img,
+    .about-container--skills-item3 img,
+    .about-container--skills-item4 img,
+    .about-container--skills-item5 img,
+    .about-container--skills-item6 img {
+        width: 60px;
     }
 
     .about-container--skills-item2 img {
-        width: 70px;
+        width: 60px;
     }
 }
