@@ -266,7 +266,7 @@ header {
     }
     
     .hero-container--content {
-        padding: 16px 500px;
+        padding: 16px 550px;
     }
     .about-container--content {
         padding: 16px 550px;
@@ -286,14 +286,14 @@ header {
     }
 
     .about-container--skills-item1 {
-        padding: 0 50px;
+        padding: 0 8em;
         padding-top: 2em;
         padding-bottom: 4em;
         justify-content: space-evenly;
     }
 
     .about-container--skills-item2 {
-        padding: 0 16em;
+        padding: 0 15em;
         padding-top: 2em;
         padding-bottom: 4em;
         gap: 3em;
@@ -304,7 +304,7 @@ header {
     .about-container--skills-item4,
     .about-container--skills-item5,
     .about-container--skills-item6 {
-        padding: 0 200px;
+        padding: 0 15em;
         padding-top: 2em;
         padding-bottom: 4em;
         justify-content: space-evenly;
@@ -322,10 +322,10 @@ header {
     .about-container--skills-item4 img,
     .about-container--skills-item5 img,
     .about-container--skills-item6 img {
-        width: 60px;
+        width: 80px;
     }
 
     .about-container--skills-item2 img {
-        width: 60px;
+        width: 70px;
     }
 }
