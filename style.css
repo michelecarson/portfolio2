@@ -293,7 +293,7 @@ header {
     }
 
     .about-container--skills-item2 {
-        padding: 0 15em;
+        padding: 0 16em;
         padding-top: 2em;
         padding-bottom: 4em;
         gap: 3em;
@@ -317,15 +317,18 @@ header {
         text-align: center;
     }
 
-    .about-container--skills-item1 img,
-    .about-container--skills-item3 img,
-    .about-container--skills-item4 img,
-    .about-container--skills-item5 img,
-    .about-container--skills-item6 img {
+    .about-container--skills-item1 img {
         width: 80px;
     }
 
     .about-container--skills-item2 img {
+        width: 70px;
+    }
+
+    .about-container--skills-item3 img,
+    .about-container--skills-item4 img,
+    .about-container--skills-item5 img,
+    .about-container--skills-item6 img {
         width: 70px;
     }
 }
