@@ -34,20 +34,21 @@
 
 <body>
     <main>
-        <div class="hero-container">
-            <header>
-                <h2 class="header--title">Michele Carson</h2>
+        <div class="hero" id="hero">
+            <header id="header">
+                <h2 class="header--title"><a href="#hero">Michele Carson</a></h2>
                 <h4 class="header--nav-item"><a href="#about">ABOUT</a></h4>
+                <h4 class="header--nav-item"><a href="#projects">PROJECTS</a></h4>
                 <h4 class="header--nav-item"><a>CONTACT</a></h4>
             </header>
-            <div class="hero-container--content">
-                <div class="hero-container--location">
-                    <img class="hero-container--location-pin" src="images/pin-color.svg">
-                    <p class="hero-container--location-address">Vancouver, Washington</p>
+            <div class="hero--content">
+                <div class="hero--location">
+                    <img class="hero--location-pin" src="images/pin-color.svg">
+                    <p class="hero--location-address">Vancouver, Washington</p>
                 </div>
-                <h2 class="hero-container--title">Michele Carson</h2>
-                <h1 class="hero-container--tagline">UX/UI Designer &amp; Developer</h1>
-                <p class="hero-container--paragraph">With a B.A. in Digital Technology and Culture from
+                <h2 class="hero--title">Michele Carson</h2>
+                <h1 class="hero--tagline">UX/UI Designer &amp; Developer</h1>
+                <p class="hero--paragraph">With a B.A. in Digital Technology and Culture from
                     Washington State University's Vancouver Campus in the Creative Media and Digital Culture
                     program, I specialize in User Experience (UX), User Interface (UI), and Web Development. In
                     collaboration with the CMDC, I was the Lead UX/UI Designer for our project, Uncle Buddy's
@@ -56,17 +57,17 @@
             </div>
         </div>
 
-        <div class="about-container">
-            <div class="about-container--content">
-                <h1 id="about" class="about-container--title">About Me</h1>
-                <h3 class="about-container--intro">Throughout my time in the CMDC and beyond, I have gained competency
+        <div class="about">
+            <div class="about--content">
+                <h1 id="about" class="about--title">About Me</h1>
+                <h3 class="about--intro">Throughout my time in the CMDC and beyond, I have gained competency
                     in
                     a wide range of skills encompassing design and development.</h3>
-                <h4 class="about-container--subheader">This includes:</h4>
+                <h4 class="about--subheader">This includes:</h4>
                 <p>Content creation using the Adobe Creative Suite, including tools such as Photoshop, Illustrator,
                     After Effects, Premiere Pro, and more
                 </p>
-                <div class="about-container--skills-item1">
+                <div class="about--skills-item1">
                     <img src="images/photoshop-icon-color.svg">
                     <img src="images/illustrator-icon-color.svg">
                     <img src="images/after-effects-icon-color.svg">
@@ -74,7 +75,7 @@
                 </div>
                 <p>Programming languages, UI libraries and frameworks, and module bundlers such as HTML5, CSS4,
                     JavaScript, jQuery, C#, Bootstrap, React.js, Node.js, and Webpack</p>
-                <div class="about-container--skills-item2">
+                <div class="about--skills-item2">
                     <img src="images/html-icon-color.svg">
                     <img src="images/css-icon-color.svg">
                     <img src="images/javascript-icon-color.svg">
@@ -85,34 +86,42 @@
                     <img src="images/node-icon-color.svg">
                     <img src="images/webpack-icon-color.svg">
                 </div>
-                <p class="about-container--skills-item3-p">Version Control Software and Cloud-Based Hosting with Git and
+                <p class="about--skills-item3-p">Version Control Software and Cloud-Based Hosting with Git and
                     GitHub</p>
-                <div class="about-container--skills-item3">
+                <div class="about--skills-item3">
                     <img src="images/git-icon-color.svg">
                     <img class="invert" src="images/github-icon.svg">
                 </div>
-                <p class="about-container--skills-item4-p">Game Development with Unity and HTML Canvas</p>
-                <div class="about-container--skills-item4">
+                <p class="about--skills-item4-p">Game Development with Unity and HTML Canvas</p>
+                <div class="about--skills-item4">
                     <img class="invert" src="images/unity-icon.svg">
                     <img class="invert" src="images/html-canvas-icon.svg">
                 </div>
-                <p class="about-container--skills-item5-p">
+                <p class="about--skills-item5-p">
                     User Experience and Interface Design with Adobe XD and Figma</p>
-                <div class="about-container--skills-item6">
+                <div class="about--skills-item6">
                     <img src="images/xd-icon-color.svg">
                     <img src="images/figma-icon-color.svg">
                 </div>
-                <h4 class="about-container--subheader2">I have also earned:</h4>
-                <p class="about-container--skills-item6-p">A Minor in Psychology and a Certificate in Game Studies and Design</p>
-                <div class="about-container--skills-item6">
+                <h4 class="about--subheader2">I have also earned:</h4>
+                <p class="about--skills-item6-p">A Minor in Psychology and a Certificate in Game Studies and Design</p>
+                <div class="about--skills-item6">
                     <img class="invert" src="images/psychology-icon.svg">
                     <img class="invert" src="images/game-icon.svg">
                 </div>
             </div>
         </div>
 
+        <div class="projects" id="projects">
+            <div class="slideshow">Project Previews</div>
+        </div>
+
+        <footer id="footer">
+
+        </footer>
     </main>
 
 </body>
 
+<link href="index.js" rel="script">
 </html>

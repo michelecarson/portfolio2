@@ -29,23 +29,34 @@ header {
     color: white;
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index: 1;
+    opacity: 90%;
+    backdrop-filter: blur(3px);
+}
+
 .header--title {
     margin-right: auto;
-    font-size: 1.25em;
+    font-size: 1em;
     font-weight: 400;
 }
 
 .header--nav-item {
+    font-size: .75em;
     margin-left: 15px;
     font-weight: 400;
 }
 
-.header--nav-item:hover {
+.header--title:hover, .header--nav-item:hover {
     transition: .25s;
     color: #2b2b2b;
 }
 
-.hero-container {
+.hero {
     background: rgba(255, 255, 255, 0.7) url("images/shapes-background2.png");
     background-size: cover;
     background-position: center;
@@ -54,23 +65,23 @@ header {
     height: 100vh;
 }
 
-.hero-container--location {
+.hero--location {
     display: flex;
-    padding-top: 1em;
+    padding-top: 4em;
     align-items: center;
 }
 
-.hero-container--location-pin {
+.hero--location-pin {
     width: 20px;
     padding-bottom: 8px;
 }
 
-.hero-container--location-address {
+.hero--location-address {
     margin-left: 7px;
     font-family: "Roboto", sans-serif;
 }
 
-.hero-container--title {
+.hero--title {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 2em;
@@ -90,7 +101,7 @@ header {
     animation: title-shine 8s infinite;
 }
 
-.hero-container--tagline {
+.hero--tagline {
     margin-top: 0px;
     margin-bottom: 0;
     padding-bottom: 32px;
@@ -151,54 +162,54 @@ header {
 }
 
 
-.hero-container--paragraph {
+.hero--paragraph {
     margin: 0;
 }
 
-.about-container {
+.about {
     background-color: black;
 }
 
-.about-container--content {
+.about--content {
     color: lightgray;
 }
 
-.about-container--title {
+.about--title {
     font-family: "Poppins";
     font-size: 2em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 3em;
     background: linear-gradient(45deg, #0077e6, #0099e6, #00cce6);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 
-.about-container--intro {
+.about--intro {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
     padding-bottom: 4em;
 }
 
-.about-container--subheader {
+.about--subheader {
     font-weight: 700;
     font-size: 1.5em;
     color: white;
 }
 
-.about-container--title,
-.about-container--subheader {
+.about--title,
+.about--subheader {
     margin-bottom: 0 !important;
 }
 
-.about-container--subheader2 {
+.about--subheader2 {
     font-weight: 700;
     font-size: 1.5em;
     color: white;
 }
 
-.about-container--skills-item1 {
+.about--skills-item1 {
     display: grid;
     grid: auto/ auto auto auto auto;
     justify-content: space-evenly;
@@ -206,7 +217,7 @@ header {
     padding-bottom: 2em;
 }
 
-.about-container--skills-item2 {
+.about--skills-item2 {
     display: grid;
     grid: auto/ auto auto auto;
     justify-content: space-evenly;
@@ -216,10 +227,10 @@ header {
     padding-bottom: 2em;
 }
 
-.about-container--skills-item3,
-.about-container--skills-item4,
-.about-container--skills-item5,
-.about-container--skills-item6 {
+.about--skills-item3,
+.about--skills-item4,
+.about--skills-item5,
+.about--skills-item6 {
     display: grid;
     grid: auto/ auto auto;
     justify-content: space-evenly;
@@ -228,25 +239,35 @@ header {
     padding-bottom: 2em;
 }
 
-.about-container--skills-item1 img,
-.about-container--skills-item3 img,
-.about-container--skills-item4 img,
-.about-container--skills-item5 img,
-.about-container--skills-item6 img {
+.about--skills-item1 img,
+.about--skills-item3 img,
+.about--skills-item4 img,
+.about--skills-item5 img,
+.about--skills-item6 img {
     width: 60px;
 }
 
-.about-container--skills-item2 img {
+.about--skills-item2 img {
     width: 50px;
 }
 
-.hero-container--content,
-.about-container--content {
+.hero--content,
+.about--content {
     padding: 16px;
 }
 
 .invert {
     filter: invert(80%);
+}
+
+.projects {
+    padding: 16px;
+    background-color: #335c83;
+}
+
+.slideshow {
+    padding: 100px;
+    text-align: center;
 }
 
 @media screen and (min-width: 500px) {}
@@ -256,56 +277,57 @@ header {
         padding: 0 500px;
     }
 
+    .header--title {
+        font-size: 1.25em;;
+    }
+
     .header--nav-item {
+        font-size: 1em;
         margin-left: 40px;
     }
 
-    .hero-container--location {
+    .hero--location {
         display: flex;
         align-items: center;
         padding-top: 75px;
         margin-top: 150px;
     }
 
-    .hero-container--paragraph {
+    .hero--paragraph {
         line-height: 2;
     }
     
-    .hero-container--content {
+    .hero--content {
         padding: 16px 550px;
     }
-    .about-container--content {
+    .about--content {
         padding: 16px 550px;
     }
 
-    .about-container--content p {
-        /* padding-right: 50px; */
-    }
-
-    .about-container--title {
+    .about--title {
         font-size: 3em;
     }
 
-    .about-container--subheader2 {
+    .about--subheader2 {
         font-weight: 700;
         font-size: 1.5em;
         color: white;
         text-align: center;
     }
 
-    .about-container--intro {
+    .about--intro {
         padding: 0 50px;
-        padding-bottom: 4em;
+        padding-bottom: 6em;
     }
 
-    .about-container--skills-item1 {
+    .about--skills-item1 {
         padding: 0 8em;
         padding-top: 2em;
         padding-bottom: 4em;
         justify-content: space-evenly;
     }
 
-    .about-container--skills-item2 {
+    .about--skills-item2 {
         padding: 0 16em;
         padding-top: 2em;
         padding-bottom: 4em;
@@ -313,35 +335,35 @@ header {
         justify-content: space-evenly;
     }
 
-    .about-container--skills-item3,
-    .about-container--skills-item4,
-    .about-container--skills-item5,
-    .about-container--skills-item6 {
+    .about--skills-item3,
+    .about--skills-item4,
+    .about--skills-item5,
+    .about--skills-item6 {
         padding: 0 15em;
         padding-top: 2em;
         padding-bottom: 4em;
         justify-content: space-evenly;
     }
 
-    .about-container--skills-item3-p,
-    .about-container--skills-item4-p,
-    .about-container--skills-item5-p,
-    .about-container--skills-item6-p {
+    .about--skills-item3-p,
+    .about--skills-item4-p,
+    .about--skills-item5-p,
+    .about--skills-item6-p {
         text-align: center;
     }
 
-    .about-container--skills-item1 img {
+    .about--skills-item1 img {
         width: 80px;
     }
 
-    .about-container--skills-item2 img {
+    .about--skills-item2 img {
         width: 70px;
     }
 
-    .about-container--skills-item3 img,
-    .about-container--skills-item4 img,
-    .about-container--skills-item5 img,
-    .about-container--skills-item6 img {
+    .about--skills-item3 img,
+    .about--skills-item4 img,
+    .about--skills-item5 img,
+    .about--skills-item6 img {
         width: 70px;
     }
 
