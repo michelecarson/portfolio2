@@ -33,10 +33,10 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width:100%;
+    width: 100%;
     z-index: 1;
     opacity: 90%;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(16px);
 }
 
 header a:visited {
@@ -55,7 +55,8 @@ header a:visited {
     font-weight: 400;
 }
 
-.header--title:hover, .header--nav-item:hover {
+.header--title:hover,
+.header--nav-item:hover {
     transition: .25s;
     color: #2b2b2b;
 }
@@ -204,13 +205,15 @@ header a:visited {
 
 .about--title,
 .about--subheader {
-    margin-bottom: 0 !important;
+    margin: 0;
 }
 
 .about--subheader2 {
     font-weight: 700;
     font-size: 1.5em;
     color: white;
+    margin: 0;
+    padding-top: 1em;
 }
 
 .about--skills-item1 {
@@ -234,7 +237,8 @@ header a:visited {
 .about--skills-item3,
 .about--skills-item4,
 .about--skills-item5,
-.about--skills-item6 {
+.about--skills-item6,
+.about--skills-item7 {
     display: grid;
     grid: auto/ auto auto;
     justify-content: space-evenly;
@@ -243,11 +247,16 @@ header a:visited {
     padding-bottom: 2em;
 }
 
+.about--skills-item7 {
+    padding-bottom: 8em;
+}
+
 .about--skills-item1 img,
 .about--skills-item3 img,
 .about--skills-item4 img,
 .about--skills-item5 img,
-.about--skills-item6 img {
+.about--skills-item6 img,
+.about--skills-item7 img {
     width: 60px;
 }
 
@@ -282,7 +291,8 @@ header a:visited {
     }
 
     .header--title {
-        font-size: 1.25em;;
+        font-size: 1.25em;
+        ;
     }
 
     .header--nav-item {
@@ -300,10 +310,11 @@ header a:visited {
     .hero--paragraph {
         line-height: 2;
     }
-    
+
     .hero--content {
         padding: 16px 550px;
     }
+
     .about--content {
         padding: 16px 550px;
     }
@@ -342,11 +353,16 @@ header a:visited {
     .about--skills-item3,
     .about--skills-item4,
     .about--skills-item5,
-    .about--skills-item6 {
+    .about--skills-item6,
+    .about--skills-item7 {
         padding: 0 15em;
         padding-top: 2em;
         padding-bottom: 4em;
         justify-content: space-evenly;
+    }
+
+    .about--skills-item7 {
+        padding-bottom: 12em;
     }
 
     .about--skills-item3-p,
