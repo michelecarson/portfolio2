@@ -37,7 +37,8 @@ header {
     width: 100%;
     z-index: 1;
     opacity: 90%;
-    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
 header a:visited {
