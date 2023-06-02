@@ -248,7 +248,7 @@ header a:visited {
 }
 
 .about--skills-item7 {
-    padding-bottom: 8em;
+    padding-bottom: 9em;
 }
 
 .about--skills-item1 img,
@@ -279,8 +279,11 @@ header a:visited {
 }
 
 .slideshow {
-    padding: 100px;
+    padding: 8em 0;
     text-align: center;
+    font-size: 2em;
+    font-family: "Poppins", sans-serif;
+    color: white;
 }
 
 @media screen and (min-width: 500px) {}
