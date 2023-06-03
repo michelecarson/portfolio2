@@ -30,31 +30,43 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
 <body>
     <main>
-        <div class="hero" id="herow">
-            <header id="header">
-                <h2 class="header--title"><a href="#hero">Michele Carson</a></h2>
-                <h4 class="header--nav-item"><a href="#about">ABOUT</a></h4>
-                <h4 class="header--nav-item"><a href="#projects">PROJECTS</a></h4>
-                <h4 class="header--nav-item"><a>CONTACT</a></h4>
-            </header>
-            <div class="hero--content" id="hero">
-                <div class="hero--location">
-                    <img class="hero--location-pin" src="images/pin-color.svg">
-                    <p class="hero--location-address">Vancouver, Washington</p>
+        <div class="hero" id="hero">
+            <nav class="navbar">
+                <div class="navbar--brand-title"><a href="#hero">Michele Carson</a></div>
+                <a href="#" class="toggle-button">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </a>
+                <div class="navbar--links">
+                    <ul>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#projects">PROJECTS</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
                 </div>
-                <h2 class="hero--title">Michele Carson,</h2>
-                <h1 class="hero--tagline">UX/UI Designer &amp; Developer</h1>
-                <p class="hero--paragraph">With a B.A. in Digital Technology and Culture from
-                    Washington State University's Vancouver Campus in the Creative Media and Digital Culture
-                    program, I specialize in User Experience (UX), User Interface (UI), and Web Development. In
-                    collaboration with the CMDC, I was the Lead UX/UI Designer for our project, Uncle Buddy's
-                    Phantom Funhouse.
-                </p>
+        </nav>
+        <div class="hero--content" id="hero">
+            <div class="hero--location">
+                <img class="hero--location-pin" src="images/pin-color.svg">
+                <p class="hero--location-address">Vancouver, Washington</p>
             </div>
+            <h2 class="hero--title">Michele Carson,</h2>
+            <h1 class="hero--tagline">UX/UI Designer &amp; Developer</h1>
+            <p class="hero--paragraph">With a B.A. in Digital Technology and Culture from
+                Washington State University's Vancouver Campus in the Creative Media and Digital Culture
+                program, I specialize in User Experience (UX), User Interface (UI), and Web Development. In
+                collaboration with the CMDC, I was the Lead UX/UI Designer for our project, Uncle Buddy's
+                Phantom Funhouse.
+            </p>
+        </div>
         </div>
 
         <div class="about">
@@ -123,5 +135,6 @@
 
 </body>
 
-<link href="index.js" rel="script">
+<script src="index.js" rel="script"></script>
+
 </html>
