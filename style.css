@@ -230,7 +230,7 @@ a:visited {
     font-family: "Poppins";
     font-size: 2em;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 6rem;
     background: linear-gradient(110deg, #0077e6, #00cce6);
     -webkit-background-clip: text;
     background-clip: text;
@@ -241,7 +241,7 @@ a:visited {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
-    padding-bottom: 4em;
+    padding-bottom: 4rem;
 }
 
 .about--subheader {
@@ -321,15 +321,31 @@ a:visited {
 }
 
 .projects {
-    padding: 0 16px;
+    padding: 1rem;
     background-color: #ededed;
 }
 
-.slideshow {
-    padding: 8em 0;
-    text-align: center;
-    font-size: 2em;
+.gallery--title {
+        font-family: "Poppins";
+        font-size: 2em;
+        text-align: center;
+        padding-top: 6rem;
+        background: linear-gradient(110deg, #0077e6, #00cce6);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        padding-bottom: 4rem;
+}
+
+.gallery {
     font-family: "Poppins", sans-serif;
+}
+
+.gallery img {
+    display: grid;
+    grid: auto/auto;
+    width: 100%;
+    padding-block: 2rem;
 }
 
 @media screen and (min-width: 500px) {
@@ -363,6 +379,16 @@ a:visited {
 
     .navbar--links li:hover {
         border-radius: 7px;
+    }
+
+    .gallery {
+        display: grid;
+        grid: auto / auto auto auto;
+    }
+
+    .gallery img {
+        max-width: fit-content;
+        padding: 0 1rem
     }
 }
 
