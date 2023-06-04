@@ -26,7 +26,7 @@ a:visited {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 1rem 2rem;
+    padding: .5rem 2rem;
     width: 100%;
     z-index: 1;
     opacity: 90%;
@@ -47,11 +47,12 @@ a:visited {
 
 .navbar--brand-title img {
     max-width: 11rem;
+    padding-top: 5px;
 }
 
 .toggle-button {
     position: absolute;
-    top: 1.5rem;
+    top: 1.2rem;
     right: 2rem;
     display: flex;
     flex-direction: column;
@@ -121,7 +122,7 @@ a:visited {
 
 .hero--location {
     display: flex;
-    padding-top: 3rem;
+    padding-top: 4rem;
     align-items: center;
 }
 
