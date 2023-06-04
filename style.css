@@ -15,6 +15,7 @@ a {
     text-decoration: none;
     cursor: pointer;
     color: none;
+    padding: 0;
 }
 
 a:visited {
@@ -321,7 +322,7 @@ a:visited {
 }
 
 .projects {
-    padding: 1rem;
+    padding-block: 1rem;
     background-color: #ededed;
 }
 
