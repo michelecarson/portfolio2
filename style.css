@@ -420,8 +420,12 @@ a:visited {
         padding: 16px 550px;
     }
 
-    .about--title {
+    .about--title, .gallery--title {
         font-size: 3em;
+    }
+
+    .gallery--title {
+        padding-bottom: 6rem;
     }
 
     .about--subheader2 {
@@ -433,7 +437,7 @@ a:visited {
 
     .about--intro {
         padding: 0 140px;
-        padding-bottom: 6em;
+        padding-bottom: 6rem;
     }
 
     .about--skills-item1 {
