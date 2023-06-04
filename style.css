@@ -25,6 +25,7 @@ a:visited {
     position: fixed;
     top: 0;
     left: 0;
+    padding: 1rem 2rem;
     width: 100%;
     z-index: 1;
     opacity: 90%;
@@ -43,14 +44,13 @@ a:visited {
     color: inherit;
 }
 
-.navbar--brand-title {
-    font-size: 1.5rem;
-    margin: .5rem;
+.navbar--brand-title img {
+    max-width: 11rem;
 }
 
 .toggle-button {
     position: absolute;
-    top: 1rem;
+    top: 1.5rem;
     right: 2rem;
     display: flex;
     flex-direction: column;
@@ -74,12 +74,8 @@ a:visited {
 .navbar--links ul {
     flex-direction: column;
     width: 100%;
-    padding: 0;
+    padding: 1rem 0;
     margin: 0;
-}
-
-.navbar--links ul:last-child {
-    padding-bottom: 1rem;
 }
 
 .navbar--links li {
@@ -313,10 +309,6 @@ a:visited {
 
 .about--skills-item2 img {
     width: 50px;
-}
-
-.navbar {
-    padding: 0 1.5em;
 }
 
 .hero--content,
