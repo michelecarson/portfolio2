@@ -106,7 +106,7 @@ a:visited {
 
 .navbar--brand-title:hover,
 .navbar--links li:hover {
-    transition: .25s;
+    transition: 1ms;
     color: #2b2b2b;
 }
 
@@ -232,7 +232,7 @@ a:visited {
     font-size: 2em;
     text-align: center;
     padding-top: 6rem;
-    background: linear-gradient(110deg, #0077e6, #00cce6);
+    background: linear-gradient(45deg, #0077e6, #00cce6);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -296,7 +296,7 @@ a:visited {
 }
 
 .about--skills-item7 {
-    padding-bottom: 9em;
+    padding-bottom: 6rem;
 }
 
 .about--skills-item1 img,
@@ -322,7 +322,8 @@ a:visited {
 }
 
 .projects {
-    padding-block: 1rem;
+    padding-block: 2rem;
+    padding-bottom: 4rem;
     background-color: #ededed;
 }
 
@@ -330,16 +331,12 @@ a:visited {
         font-family: "Poppins";
         font-size: 2em;
         text-align: center;
-        padding-top: 6rem;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
         background: linear-gradient(110deg, #0077e6, #00cce6);
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
-        padding-bottom: 4rem;
-}
-
-.gallery {
-    font-family: "Poppins", sans-serif;
 }
 
 .gallery img {
@@ -347,6 +344,37 @@ a:visited {
     grid: auto/auto;
     width: 100%;
     padding-block: 2rem;
+}
+
+.gallery img:hover {
+    cursor: pointer;
+    animation-delay: 1ms;
+    filter: brightness(80%);
+}
+
+footer {
+    font-family: 'Source Sans Pro';
+    font-size: .75em;
+    font-weight: light;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(45deg, #007bff, #00d4ff);
+    color: white;
+}
+
+.footer-icons {
+    width: 23px;
+    margin-right: 13px;
+    filter: invert(100%);
+}
+
+.footer-icons:hover{
+    filter: invert(15%);
 }
 
 @media screen and (min-width: 500px) {
@@ -388,7 +416,6 @@ a:visited {
     }
 
     .gallery img {
-        max-width: fit-content;
         padding: 0 1rem
     }
 }
@@ -418,15 +445,11 @@ a:visited {
     }
 
     .about--content {
-        padding: 16px 550px;
+        padding: 1rem 550px;
     }
 
     .about--title, .gallery--title {
         font-size: 3em;
-    }
-
-    .gallery--title {
-        padding-bottom: 6rem;
     }
 
     .about--subheader2 {
@@ -468,7 +491,7 @@ a:visited {
     }
 
     .about--skills-item7 {
-        padding-bottom: 12em;
+        padding-bottom: 7rem;
     }
 
     .about--skills-item3-p,
@@ -495,5 +518,15 @@ a:visited {
 
     .earned {
         text-align: center;
+    }
+
+    .projects {
+        padding-inline: 200px;
+        padding-block: 3rem;
+        padding-bottom: 9rem;
+    }
+
+    .gallery {
+        height: max-content;
     }
 }
