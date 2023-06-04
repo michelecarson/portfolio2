@@ -36,7 +36,6 @@ a:visited {
     justify-content: space-between;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(45deg, #007bff, #00d4ff);
-    padding: 0px 16px;
     color: white;
 }
 
@@ -51,8 +50,8 @@ a:visited {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
-    right: 1rem;
+    top: 1rem;
+    right: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -316,9 +315,13 @@ a:visited {
     width: 50px;
 }
 
+.navbar {
+    padding: 0 1.5em;
+}
+
 .hero--content,
 .about--content {
-    padding: 16px;
+    padding: 2em;
 }
 
 .invert {
