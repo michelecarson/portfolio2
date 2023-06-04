@@ -358,7 +358,6 @@ a:visited {
         flex-direction: row;
         margin: 0;
         padding: 0;
-        padding-top: 1rem;
         justify-content: flex-end;
     }
 
@@ -369,11 +368,11 @@ a:visited {
 
 @media screen and (min-width: 1025px) {
     .navbar {
-        padding: 0 500px;
+        padding: 1rem 500px;
     }
 
-    .navbar--brand-title {
-        font-size: 1.25em;
+    .navbar--brand-title img {
+        max-width: 200px;
     }
 
     .hero--location {
