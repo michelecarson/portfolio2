@@ -311,7 +311,7 @@ a:visited {
     background-color: #ededed;
 }
 
-.gallery--title {
+.projects--title {
     font-family: "Poppins";
     font-size: 3em;
     text-align: center;
@@ -440,6 +440,10 @@ footer {
         font-size: 18px;
     }
 
+    .about--title {
+        padding-top: 8rem;
+    }
+
     .about--content {
         padding: 1rem 550px;
     }
@@ -517,10 +521,9 @@ footer {
         text-align: center;
     }
 
-    .projects {
-        padding-inline: 200px;
-        padding-block: 3rem;
-        padding-bottom: 9rem;
+    .projects--title {
+        padding-top: 0rem;
+        padding-bottom: 6rem;
     }
 
     .gallery {
