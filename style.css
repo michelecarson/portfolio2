@@ -46,7 +46,7 @@ a:visited {
 }
 
 .navbar--brand-title img {
-    max-width: 11rem;
+    max-width: 7rem;
     padding-top: 5px;
 }
 
@@ -230,7 +230,7 @@ a:visited {
 
 .about--title {
     font-family: "Poppins";
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
     padding-top: 6rem;
     background: linear-gradient(45deg, #0077e6, #00cce6);
@@ -330,7 +330,7 @@ a:visited {
 
 .gallery--title {
         font-family: "Poppins";
-        font-size: 2em;
+        font-size: 3em;
         text-align: center;
         padding-top: 6rem;
         padding-bottom: 1rem;
