@@ -122,7 +122,7 @@ a:visited {
 
 .hero--location {
     display: flex;
-    padding-top: 4rem;
+    padding-top: 3rem;
     align-items: center;
 }
 
@@ -142,7 +142,7 @@ a:visited {
     font-family: "Poppins", sans-serif;
     background-image: linear-gradient(
         45deg, 
-        #191919 0%,
+        #2b2b2b 0%,
         #0077e6 29%,
         #00cce6 67%,
         #00cce6  100%
@@ -226,6 +226,7 @@ a:visited {
     font-size: 1em;
     font-weight: 400;
     text-align: center;
+    padding-inline: .5rem;
     padding-bottom: 4rem;
 }
 
@@ -323,17 +324,41 @@ a:visited {
     color: transparent;
 }
 
-.gallery img {
-    display: grid;
-    grid: auto/auto;
-    width: 100%;
-    padding-block: 2rem;
+.projects--subtitle {
+    font-weight: 700;
+    font-size: 1.5em;
+    color: #191919;
+    margin: 0;
+    padding: 0 1rem;
+    padding-top: 1em;
 }
 
-.gallery img:hover {
+.projects p {
+    padding: 0 1rem;
+}
+
+.projects--tech-stack {
+    padding: 0 1rem;
+}
+
+.projects--tech-stack img {
+    margin-right: 7px;
+    width: 30px;
+}
+
+.projects--preview {
+    max-width: 100%;
+    padding-block: 1rem;
+}
+
+.projects--preview:hover {
     cursor: pointer;
     animation-delay: 1ms;
-    filter: brightness(80%);
+    filter: brightness(90%);
+}
+
+.behance  {
+    color:#007bff !important;
 }
 
 footer {
@@ -393,15 +418,6 @@ footer {
     .navbar--links li:hover {
         border-radius: 7px;
     }
-
-    .gallery {
-        display: grid;
-        grid: auto / auto auto auto;
-    }
-
-    .gallery img {
-        padding: 0 1rem
-    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -449,7 +465,7 @@ footer {
     }
 
     .about--title,
-    .gallery--title {
+    .projects--title {
         font-size: 3em;
     }
 
@@ -460,9 +476,14 @@ footer {
         text-align: center;
     }
 
+    .about p {
+        font-size: 18px;
+    }
+
     .about--intro {
-        padding: 0 140px;
+        padding: 0 200px;
         padding-bottom: 6rem;
+        font-size: 18px;
     }
 
     .about--skills-item1 {
@@ -522,11 +543,24 @@ footer {
     }
 
     .projects--title {
-        padding-top: 0rem;
-        padding-bottom: 6rem;
+        padding-top: 8rem;
+        padding-bottom: 2rem;
     }
 
-    .gallery {
-        height: max-content;
+    .projects--content {
+        padding: 0 550px;
+    }
+
+    .projects p {
+        font-size: 18px;
+    }
+
+    .projects--preview {
+        padding-block: 2rem;
+    }
+
+    .projects--tech-stack img {
+        margin-right: 10px;
+        width: 35px;
     }
 }
