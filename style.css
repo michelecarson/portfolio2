@@ -429,29 +429,29 @@ footer {
 
 @media screen and (min-width: 1025px) {
     .navbar {
-        padding: 1rem 500px;
+        padding: .5rem 450px;
     }
 
     .navbar--brand-title img {
-        max-width: 150px;
+        max-width: 135px;
     }
 
     .hero--content {
-        padding: 16px 550px;
+        padding: 16px 500px;
     }
 
     .hero--title {
-        font-size: 3em;
+        font-size: 2.75em;
     }
 
     .hero--tagline {
-        font-size: 6em;
+        font-size: 5.25em;
     }
 
     .hero--location {
         display: flex;
         align-items: center;
-        padding-top: 9rem;
+        padding-top: 8rem;
     }
 
     .hero--paragraph {
@@ -459,16 +459,12 @@ footer {
         padding-top: 2rem;
     }
 
-    .hero p {
-        font-size: 18px;
-    }
-
     .about--title {
         padding-top: 8rem;
     }
 
     .about--content {
-        padding: 1rem 700px;
+        padding: 1rem 550px;
     }
 
     .about--title,
@@ -483,13 +479,8 @@ footer {
         text-align: left;
     }
 
-    .about p {
-        font-size: 18px;
-    }
-
     .about--intro {
         padding-bottom: 6rem;
-        font-size: 18px;
         text-align: left;
     }
 
@@ -554,11 +545,7 @@ footer {
     }
 
     .projects--content {
-        padding: 0 550px;
-    }
-
-    .projects p {
-        font-size: 18px;
+        padding: 0 500px;
     }
 
     .projects--preview {
