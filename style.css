@@ -14,7 +14,6 @@ body {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: white;
     padding: 0;
 }
 
@@ -358,10 +357,6 @@ a:visited {
 
 .projects--subtitle second
 
-.behance  {
-    color:#007bff !important;
-}
-
 footer {
     font-family: 'Source Sans Pro';
     font-size: .75em;
@@ -385,6 +380,10 @@ footer {
 
 .footer-icons:hover {
     filter: invert(15%);
+}
+
+.behance  {
+    color:#007bff !important;
 }
 
 @media screen and (min-width: 500px) {
