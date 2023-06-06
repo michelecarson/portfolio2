@@ -429,11 +429,15 @@ footer {
 
 @media screen and (min-width: 1025px) {
     .navbar {
-        padding: .5rem 450px;
+        padding: .75rem 450px;
     }
 
     .navbar--brand-title img {
         max-width: 135px;
+    }
+
+    .navbar--links {
+        font-size: .9em;
     }
 
     .hero--content {
