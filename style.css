@@ -505,6 +505,10 @@ footer {
         padding-top: 8rem;
     }
 
+    .about--intro {
+        padding-inline: 9rem;
+    }
+
     .about--content {
         padding: 1rem 550px;
     }
