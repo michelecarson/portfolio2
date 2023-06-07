@@ -342,6 +342,8 @@ a:visited {
 
 .projects p {
     padding-inline: 1rem;
+    padding-bottom: 1rem;
+    margin-top: .5rem;
 }
 
 .projects--tech-stack {
@@ -506,7 +508,6 @@ footer {
     }
 
     .about--intro {
-        padding-inline: 9rem;
     }
 
     .about--content {
@@ -528,10 +529,11 @@ footer {
     .about--intro {
         padding-bottom: 6rem;
         text-align: left;
+        padding-inline: 9rem;
     }
 
     .about--skills-item1 {
-        gap: 3rem;
+        gap: .5rem;
         padding-bottom: 2rem;
         justify-content: space-evenly;
         justify-content: left;
@@ -541,7 +543,7 @@ footer {
         padding-inline: 0;
         padding-bottom: 2rem;
         grid: auto/ auto auto auto auto auto;
-        gap: 4rem;
+        gap: 1rem;
         justify-content: left;
     }
 
@@ -551,7 +553,7 @@ footer {
     .about--skills-item6,
     .about--skills-item7 {
         padding-inline: 0;
-        gap: 4rem;
+        gap: 1rem;
         padding-bottom: 2rem;
         justify-content: left;
     }
@@ -568,18 +570,19 @@ footer {
     }
 
     .about--skills-item1 img {
-        width: 70px;
+        width: 65px;
     }
 
     .about--skills-item2 img {
-        width: 60px;
+        width: 55px;
     }
 
     .about--skills-item3 img,
     .about--skills-item4 img,
     .about--skills-item5 img,
-    .about--skills-item6 img {
-        width: 60px;
+    .about--skills-item6 img,
+    .about--skills-item7 img {
+        width: 55px;
     }
 
     .earned {
@@ -588,9 +591,6 @@ footer {
 
     .projects--title {
         padding-top: 8rem;
-    }
-
-    .projects--subtitle {
     }
 
     .projects--content {
