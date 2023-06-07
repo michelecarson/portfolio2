@@ -342,8 +342,6 @@ a:visited {
 
 .projects p {
     padding-inline: 1rem;
-    padding-bottom: 1rem;
-    margin-top: .5rem;
 }
 
 .projects--tech-stack {
