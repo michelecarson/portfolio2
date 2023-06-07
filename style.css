@@ -533,7 +533,7 @@ footer {
     }
 
     .about--skills-item1 {
-        gap: .5rem;
+        gap: 1rem;
         padding-bottom: 2rem;
         justify-content: space-evenly;
         justify-content: left;
@@ -543,7 +543,7 @@ footer {
         padding-inline: 0;
         padding-bottom: 2rem;
         grid: auto/ auto auto auto auto auto;
-        gap: 1rem;
+        gap: 2rem;
         justify-content: left;
     }
 
@@ -553,7 +553,7 @@ footer {
     .about--skills-item6,
     .about--skills-item7 {
         padding-inline: 0;
-        gap: 1rem;
+        gap: 2rem;
         padding-bottom: 2rem;
         justify-content: left;
     }
