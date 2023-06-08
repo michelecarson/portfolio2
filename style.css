@@ -228,18 +228,18 @@ a:visited {
     padding-bottom: 4rem;
 }
 
-.about--subheader {
+.about--subtitle {
     font-weight: 700;
     font-size: 1.5em;
     color: white;
 }
 
 .about--title,
-.about--subheader {
+.about--subtitle {
     margin: 0;
 }
 
-.about--subheader2 {
+.about--subtitle2 {
     font-weight: 700;
     font-size: 1.5em;
     color: white;
@@ -505,9 +505,6 @@ footer {
         padding-top: 8rem;
     }
 
-    .about--intro {
-    }
-
     .about--content {
         padding: 1rem 550px;
     }
@@ -517,7 +514,7 @@ footer {
         font-size: 4em;
     }
 
-    .about--subheader2 {
+    .about--subtitle2 {
         font-weight: 700;
         font-size: 1.5em;
         color: white;
