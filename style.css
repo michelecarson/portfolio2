@@ -268,10 +268,18 @@ a:visited {
 .about--skills-item3,
 .about--skills-item4,
 .about--skills-item5,
-.about--skills-item6,
 .about--skills-item7 {
     display: grid;
     grid: auto/ auto auto;
+    justify-content: space-evenly;
+    padding: 0 4em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.about--skills-item6 {
+    display: grid;
+    grid: auto/auto;
     justify-content: space-evenly;
     padding: 0 4em;
     padding-top: 1em;
@@ -289,6 +297,10 @@ a:visited {
 .about--skills-item6 img,
 .about--skills-item7 img {
     width: 55px;
+}
+
+.about--skills-item6 img {
+    filter: brightness(1.5);
 }
 
 .about--skills-item2 img {
@@ -560,7 +572,8 @@ footer {
     .about--skills-item3-p,
     .about--skills-item4-p,
     .about--skills-item5-p,
-    .about--skills-item6-p {
+    .about--skills-item6-p,
+    .about--skills-item7-p {
         text-align: left;
     }
 
@@ -575,7 +588,7 @@ footer {
     .about--skills-item3 img,
     .about--skills-item4 img,
     .about--skills-item5 img,
-    .about--skills-item6 img,
+    .about--skills-item6 img
     .about--skills-item7 img {
         width: 55px;
     }
