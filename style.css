@@ -535,8 +535,8 @@ footer {
 
     .about--intro {
         padding-bottom: 6rem;
-        text-align: left;
-        padding-inline: 9rem;
+        text-align: center;
+        padding-inline: 8rem;
     }
 
     .about--skills-item1 {
@@ -599,6 +599,10 @@ footer {
 
     .projects--title {
         padding-top: 8rem;
+    }
+
+    .projects--subtitle {
+        font-size: 3em;
     }
 
     .projects--content {
