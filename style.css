@@ -491,7 +491,7 @@ footer {
     }
 
     .hero--content {
-        padding: 16px 495px;
+        padding: 16px 490px;
     }
 
     .hero--title {
@@ -510,7 +510,7 @@ footer {
 
     .hero--paragraph {
         line-height: 2;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
 
     .about--title {
