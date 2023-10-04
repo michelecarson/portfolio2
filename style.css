@@ -295,13 +295,14 @@ a:visited {
 .about--skills-item4 img,
 .about--skills-item5 img,
 .about--skills-item6 img,
+.about--skills-item7 img,
 .about--skills-item8 img {
     width: 55px;
 }
 
-.about--skills-item7 img {
+/* .about--skills-item7 img {
     width: 150px;
-}
+} */
 
 
 /* .about--skills-item6 img {
