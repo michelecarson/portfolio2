@@ -244,47 +244,47 @@ a:visited {
     font-size: 1.5em;
     color: white;
     margin: 0;
-    padding-top: 1em;
+    padding-top: 1rem;
 }
 
-.about--skills-item1, .about--skills-item7 {
+.about--skills-item1 {
     display: grid;
-    grid: auto/ auto auto auto auto;
+    grid: auto/ auto auto auto;
+    gap: 1rem;
     justify-content: space-evenly;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .about--skills-item2 {
     display: grid;
     grid: auto/ auto auto auto;
     justify-content: space-evenly;
-    gap: 2em;
-    padding: 0 3em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    gap: 3rem;
+    padding: 0 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
 .about--skills-item3,
 .about--skills-item4,
 .about--skills-item5,
-.about--skills-item6, 
+.about--skills-item6,
 .about--skills-item8 {
     display: grid;
     grid: auto/ auto auto;
     justify-content: space-evenly;
-    padding: 0 4em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
-/* .about--skills-item7 {
+.about--skills-item7 {
     display: grid;
-    grid: auto/auto;
+    grid: auto/ auto auto; 
     justify-content: space-evenly;
-    padding: 0 4em;
-    padding-top: 1em;
-    padding-bottom: 2em;
-} */
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 
 .about--skills-item8 {
     padding-bottom: 6rem;
@@ -315,7 +315,7 @@ a:visited {
 
 .hero--content,
 .about--content {
-    padding: 2em;
+    padding: 2rem;
 }
 
 .invert {
@@ -343,7 +343,7 @@ a:visited {
     font-weight: 700;
     font-size: 2em;
     margin: 0;
-    padding-inline: 1rem;;
+    padding-inline: 1rem;
     background: linear-gradient(45deg, #0077e6, #00cce6);
     -webkit-background-clip: text;
     background-clip: text;
@@ -546,6 +546,7 @@ footer {
     }
 
     .about--skills-item1 {
+        grid: auto/ auto auto auto auto auto;
         gap: 1rem;
         padding-bottom: 2rem;
         justify-content: space-evenly;
@@ -564,13 +565,21 @@ footer {
     .about--skills-item4,
     .about--skills-item5,
     .about--skills-item6,
-    .about--skills-item7,
     .about--skills-item8 {
         padding-inline: 0;
         gap: 2rem;
         padding-bottom: 2rem;
         justify-content: left;
     }
+
+    .about--skills-item7{
+        padding-inline: 0;
+        grid: auto/ auto auto auto auto;
+        gap: 2rem;
+        padding-bottom: 2rem;
+        justify-content: left;
+    }
+
 
     .about--skills-item8 {
         padding-bottom: 7rem;
