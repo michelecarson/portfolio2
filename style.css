@@ -280,6 +280,17 @@ a:visited {
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
+
+.about--skills-item-productivity {
+    display: grid;
+    grid: auto/ auto auto auto auto;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 0 3em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 .about--skills-item7 {
     display: grid;
     grid: auto/ auto auto; 
@@ -300,6 +311,7 @@ a:visited {
 .about--skills-item5 img,
 .about--skills-item6 img,
 .about--skills-item7 img,
+.about--skills-item-productivity img,
 .about--skills-item8 img {
     width: 55px;
 }
@@ -584,6 +596,14 @@ footer {
         justify-content: left;
     }
 
+    .about--skills-item-productivity {
+        padding-inline: 0;
+        grid: auto/ auto auto auto auto auto;
+        gap: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        justify-content: left;
+    }
 
     .about--skills-item8 {
         padding-bottom: 7rem;
