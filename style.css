@@ -275,7 +275,6 @@ a:visited {
     display: grid;
     grid: auto/ auto auto;
     justify-content: space-evenly;
-    gap: 2rem;
     padding: 0 3em;
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -283,7 +282,7 @@ a:visited {
 
 .about--skills-item-productivity {
     display: grid;
-    grid: auto/ auto auto auto auto;
+    grid: auto/ auto auto auto;
     justify-content: space-evenly;
     gap: 2rem;
     padding: 0 3em;
