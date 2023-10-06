@@ -271,6 +271,7 @@ a:visited {
 .about--skills-game-dev,
 .about--skills-ux-ui,
 .about--skills-cms,
+.about--skills-identity,
 .about--skills-additional {
     display: grid;
     grid: auto/ auto auto;
@@ -322,6 +323,7 @@ a:visited {
 .about--skills-email img,
 .about--skills-productivity img,
 .about--skills-analytics img,
+.about--skills-identity img,
 .about--skills-additional img {
     width: 55px;
 }
@@ -582,6 +584,7 @@ footer {
     .about--skills-game-dev,
     .about--skills-ux-ui,
     .about--skills-cms,
+    .about--skills-identity,
     .about--skills-additional {
         padding-inline: 0;
         gap: 2rem;
@@ -635,6 +638,7 @@ footer {
     .about--skills-game-dev img,
     .about--skills-ux-ui img,
     .about--skills-cms img,
+    .about--skills-identity img,
     .about--skills-additional img {
         width: 55px;
     }
