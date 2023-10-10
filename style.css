@@ -311,6 +311,16 @@ a:visited {
     padding-bottom: 2rem;
 }
 
+.about--skills-project-management {
+    display: grid;
+    grid: auto/ auto;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 0 3em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
 .about--skills-additional {
     padding-bottom: 6rem;
 }
@@ -324,6 +334,7 @@ a:visited {
 .about--skills-productivity img,
 .about--skills-analytics img,
 .about--skills-identity img,
+.about--skills-project-management img,
 .about--skills-additional img {
     width: 55px;
 }
@@ -618,6 +629,15 @@ footer {
         justify-content: left;
     }
 
+    .about--skills-project-management {
+        padding-inline: 0;
+        grid: auto/ auto;
+        gap: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        justify-content: left;
+    }
+
     .about--skills-additional {
         padding-bottom: 7rem;
     }
@@ -639,6 +659,7 @@ footer {
     .about--skills-ux-ui img,
     .about--skills-cms img,
     .about--skills-identity img,
+    .about--skills-project-management img,
     .about--skills-additional img {
         width: 55px;
     }
