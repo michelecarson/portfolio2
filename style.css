@@ -525,7 +525,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1281px) {
     .navbar {
         padding: .75rem 450px;
     }
