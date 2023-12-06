@@ -15,3 +15,6 @@ toggleButton.addEventListener('click', function (event) {
 
     navbarLinks.classList.toggle('active')
 })
+
+const y = new Date();
+document.getElementById("year").innerHTML = y.getFullYear();
